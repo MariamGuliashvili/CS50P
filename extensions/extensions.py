@@ -1,3 +1,4 @@
+
 media = input("what is your file name " ).strip().lower()
 
 if ".jpg" in media:
