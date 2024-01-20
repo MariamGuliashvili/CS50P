@@ -14,4 +14,5 @@ while True:
             print("Just right!")
     except ValueError:
         continue
+        
     break
