@@ -3,7 +3,6 @@ import inflect
 p = inflect.engine()
 
 namesList = []
-
 while True:
     try:
         names = input("Name: ").title()
