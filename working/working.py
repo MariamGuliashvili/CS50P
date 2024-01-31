@@ -1,10 +1,7 @@
 import re
 
-
 def main():
     print(convert(input("Hours: ")))
-
-
 def convert(s):
     regex = "(0?[1-9]|1[0-2]):?\.?([0-5][0-9])? (AM|PM)"
     match = re.search(r"^" + regex + " to " + regex + "$", s)
